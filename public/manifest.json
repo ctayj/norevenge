@@ -1,10 +1,10 @@
 {
-  "short_name": "React App",
+  "short_name": "norevenge",
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "192x192",
+      "src": "Malcolm1carbine3gr.png",
+      "sizes": "32x32",
       "type": "image/png"
     }
   ],

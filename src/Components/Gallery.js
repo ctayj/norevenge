@@ -1,21 +1,32 @@
 import React, { Component } from 'react';
-import confusedgallery from './confused gallery cover.jpg'
-
+import confusedgallery from './images/confused gallery cover.jpg';
+import Slider from './Slider.js'
 class Gallery extends Component {
 
   render(){
     return(
-      <div className="Gallery">
-        <div className="gallery">
-          <p>
+      <div className="gallery">
             <figure className="gallery-item">
-            <img className='resize' src={confusedgallery} />
-            <figcaption>CONFUSED</figcaption>
+              < a href="/look/confusedlookbook">< img className="thumbnail" src={confusedgallery}/></a>
             </figure>
-          </p>
-        </div>
-      </div>
+            <figure className="gallery-item">
+              <img className="thumbnail" src={confusedgallery}/>
+            </figure>
+            <figure className="gallery-item">
+              <img className="thumbnail" src={confusedgallery}/>
+            </figure>
+            <figure className="gallery-item">
+              <img className="thumbnail" src={confusedgallery}/>
+            </figure>
+            <figure className="gallery-item">
+              <img className="thumbnail" src={confusedgallery}/>
+            </figure>
+            <figure className="gallery-item">
+              <img className="thumbnail" src={confusedgallery}/>
+            </figure>
+          </div>
           )
+
 
 }
 

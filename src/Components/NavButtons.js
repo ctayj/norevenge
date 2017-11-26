@@ -13,7 +13,7 @@ render(){
                 <li><a href="/obtain">OBTAIN</a></li>
 
                 <div className="contact-btn">
-                  <a>CONTACT</a>
+                  <a href='/contact'>CONTACT</a>
                 </div>
               </ul>
             </div>
