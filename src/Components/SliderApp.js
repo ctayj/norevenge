@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-import Slider from './Slider'
+import Slider from './Sliders/Slider'
 
-require('./sliderstyle.scss')
+require('./Sliders/sliderstyle.scss')
 
 export default class SliderApp extends Component {
   render() {
     return (
       <div className="app">
-        <Slider />
+        <Slider/>
       </div>
     )
   }

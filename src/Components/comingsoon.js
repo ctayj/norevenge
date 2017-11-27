@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import countdown from './countdown crop and cut.mp4'
+import countdown from './images/countdown crop and cut.mp4'
 
 
 
