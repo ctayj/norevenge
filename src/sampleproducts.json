@@ -4,29 +4,29 @@
         {"id": "Injustice Anywhere Tee",
           "description": "'Injustice Anywhere is a Threat to Justice Everywhere.'-Martin Luther King Junior. Hand printed olive short sleeve tee.",
           "price": 35,
-          "S": 0,
+          "S": 1,
           "M": 1,
           "L": 1,
           "XL":1 ,
-          "img_url":["./images/confused gallery cover.jpg"]},
+          "img_url":["./images/confused gallery cover.jpg","./images/confused gallery cover.jpg","./images/confused gallery cover.jpg"]},
 
-          {"id": "Injustice Anywhere Tee",
+          {"id": "Save Me Tee",
             "description": "'Injustice Anywhere is a Threat to Justice Everywhere.'-Martin Luther King Junior. Hand printed olive short sleeve tee.",
             "price": 35,
             "S": 0,
             "M": 1,
             "L": 1,
             "XL":1 ,
-            "img_url":["./images/confused gallery cover.jpg"]},
+            "img_url":["./images/confused gallery cover.jpg","./images/confused gallery cover.jpg","./images/confused gallery cover.jpg"]},
 
-            {"id": "Injustice Anywhere Tee",
+            {"id": "Tee",
               "description": "'Injustice Anywhere is a Threat to Justice Everywhere.'-Martin Luther King Junior. Hand printed olive short sleeve tee.",
               "price": 35,
               "S": 0,
               "M": 1,
               "L": 1,
               "XL":1 ,
-              "img_url":["./images/confused gallery cover.jpg"]},
+              "img_url":["./images/confused gallery cover.jpg","./images/confused gallery cover.jpg","./images/confused gallery cover.jpg"]},
 
           {"id": "By Any Leans",
             "description": "Always Sip and Prosper. Printed pint on black tee with purple Helvetica lettering. When dark, text looks black.",
@@ -35,7 +35,7 @@
             "M": 1,
             "L": 1,
             "XL":1 ,
-            "img_url":["./images/confused gallery cover.jpg"]}
+            "img_url":["./images/confused gallery cover.jpg","./images/confused gallery cover.jpg","./images/confused gallery cover.jpg"]}
 
     ]
 }

@@ -9,6 +9,7 @@ import SliderApp from './Components/SliderApp'
 import Comingsoon from './Components/comingsoon'
 import Contactinfo from './Components/Contactinfo'
 import  ProductPage from './Components/ProductPage'
+import DynamicProductPage from './Components/DynamicProductPage'
 
 ReactDOM.render(
 
@@ -21,6 +22,7 @@ ReactDOM.render(
     <Route exact path= "/look/confusedlookbook" component = {SliderApp} />
     <Route exact path= "/obtain" component = {Comingsoon} />
     <Route exact path = "/shop" component = {ProductPage}/>
+    <Route path="/obtain/:id" component={DynamicProductPage} handler={ProductPage}/>
     <Route exact path= "/contact" component = {Contactinfo} />
   </div>
   </BrowserRouter> ,document.getElementById('root'));

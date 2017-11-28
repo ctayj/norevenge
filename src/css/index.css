@@ -20,6 +20,21 @@ nav ul {
 .contact-btn {
  float: right;
 }
+#shop-images{
+position:absolute;
+display: block;
+top: 20%;
+left: 15%;
+max-width: 40%;
+}
+
+#shop-text{
+  position: fixed;
+  font-size: 14px;
+  left: 55%;
+  top: 35%;
+  max-width: 150px;
+}
 
 .contact-btn a {
   margin-right: 30px;

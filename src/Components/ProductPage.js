@@ -20,13 +20,13 @@ class ProductPage extends Component{
 
         {this.state.products.map(function(item){
           var url = item.img_url[0]
-          console.log(url);
             return(
-//images must be in public folder
-  <figure className="gallery-item">
-  <Link to={'obtain/' + item.id} params={{item: {item}}}><img src={url} alt="404"/></Link>
-  <center><p>{item.id}</p></center>
-  </figure>
+
+                //images must be in public folder
+                  <figure className="gallery-item">
+                  <Link to={'obtain/' + item.id} params={{item: {item}}}><img src={url} alt="404"/></Link>
+                  <center><p>{item.id}</p></center>
+                  </figure>
 
             );
         })}
